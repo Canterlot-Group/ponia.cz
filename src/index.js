@@ -1,10 +1,14 @@
 const express = require('express');
+const bodyParser = require('bodyParser');
 const mongodb = require('mongodb').MongoClient;
 const morgan  = require('morgan');
 const helmet  = require('helmet');
 const cors    = require('cors');
 
+const recaptcha = require('./recaptcha');
+
 const app = express();
+app.use(bodyParser.json());
 app.use(morgan('tiny'));
 app.use(helmet());
 app.use(cors());
