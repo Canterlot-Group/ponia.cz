@@ -1,5 +1,5 @@
 const express = require('express');
-const bodyParser = require('bodyParser');
+const bodyParser = require('body-parser');
 const sequelize = require('sequelize');
 const morgan  = require('morgan');
 const helmet  = require('helmet');
@@ -16,3 +16,4 @@ app.use(cors());
 
 
 app.listen(8180, () => console.info('Poniacz listening on 8180'));
+module.exports = app;
