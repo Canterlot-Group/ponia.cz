@@ -1,0 +1,28 @@
+{
+  "name": "ponia.cz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Canterlot-Group/ponia.cz.git"
+  },
+  "author": "Alicja \"alis\" Lis <alis@krutt.org>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/Canterlot-Group/ponia.cz/issues"
+  },
+  "homepage": "https://github.com/Canterlot-Group/ponia.cz#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-recaptcha": "^5.0.2",
+    "helmet": "^4.2.0",
+    "mongodb": "^3.6.3",
+    "morgan": "^1.10.0"
+  }
+}
