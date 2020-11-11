@@ -24,6 +24,7 @@
     "express-recaptcha": "^5.0.2",
     "helmet": "^4.2.0",
     "morgan": "^1.10.0",
+    "pug": "^3.0.0",
     "sequelize": "^6.3.5",
     "sqlite3": "^5.0.0"
   },
