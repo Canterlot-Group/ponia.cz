@@ -1,6 +1,6 @@
 const express = require('express');
 const bodyParser = require('bodyParser');
-const mongodb = require('mongodb').MongoClient;
+const sequelize = require('sequelize');
 const morgan  = require('morgan');
 const helmet  = require('helmet');
 const cors    = require('cors');
